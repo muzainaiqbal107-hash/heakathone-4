@@ -1,0 +1,762 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #caf0f8, #90e0ef, #48cae4);
+    font-family: Arial, sans-serif;
+}
+
+
+/* header */
+
+header {
+    width: 100%;
+    background: transparent;
+    padding: 18px 0;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+#side {
+    color: #00b4d8;
+}
+
+.nav-links li a:hover {
+    background: white;
+    color: #0096c7;
+}
+
+/* hearo-section */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 12px;
+    text-shadow: 0px 0px 20px #00d9ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-section {
+    width: 80%;
+    margin: 80px auto;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 45px;
+    color: #0096c7;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-section:hover {
+    transform: translateY(-8px);
+    transition: 0.3s;
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+.food-heading {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.food-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.food-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+    transition: .3s;
+}
+
+.food-card:hover {
+    transform: translateY(-10px);
+}
+
+.food-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.food-card h3 {
+    color: #0096c7;
+    padding: 15px;
+}
+
+.food-card p {
+    padding: 0 15px 20px;
+    color: #555;
+}
+
+.benefits-section {
+    width: 90%;
+    max-width: 900px;
+    margin: 80px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .15);
+}
+
+.benefits-section:hover {
+    transform: translateY(-5px);
+}
+
+.benefits-section h2 {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.benefits-section p {
+    line-height: 2;
+    color: #444;
+    text-align: justify;
+}
+
+.achievement-section {
+    width: 90%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.achievement-heading {
+    font-size: 50px;
+    color: #0077b6;
+    margin-bottom: 50px;
+}
+
+.achievement-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.achievement-card {
+    width: 300px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    transition: .3s;
+}
+
+.achievement-card:hover {
+    transform: translateY(-10px);
+}
+
+.achievement-card h1 {
+    color: #00b4d8;
+    font-size: 55px;
+}
+
+.achievement-card h4 {
+    color: #023e8a;
+    margin: 15px 0;
+}
+
+.achievement-card p {
+    color: #555;
+}
+
+.contact-section {
+    padding: 80px 20px;
+}
+
+.contact-heading {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #90e0ef;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #0096c7;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0077b6;
+}
+
+.footer {
+    background: linear-gradient(to right, #0077b6, #00b4d8);
+    color: white;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
+.footer-content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-box {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-box h3 {
+    margin-bottom: 20px;
+}
+
+.footer-box p {
+    line-height: 1.8;
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box ul li {
+    margin: 10px 0;
+}
+
+.footer-box ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-box ul li a:hover {
+    color: #caf0f8;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, .15);
+}
+
+
+@media screen and (max-width:320px) {
+
+    header {
+        padding: 12px 0;
+    }
+
+    .navbar {
+        width: 95%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo h2 {
+        font-size: 24px;
+    }
+
+    .nav-links {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .nav-links li a {
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+
+    .hero {
+        height: 60vh;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+    .about-section {
+        width: 95%;
+        padding: 20px;
+        margin: 40px auto;
+    }
+
+    .about-section h2 {
+        font-size: 28px;
+    }
+
+    .about-section p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .food-heading {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .food-cards {
+        width: 95%;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .food-card img {
+        height: 180px;
+    }
+
+    .food-card h3 {
+        font-size: 20px;
+    }
+
+    .food-card p {
+        font-size: 14px;
+    }
+
+    .benefits-section {
+        width: 95%;
+        padding: 20px;
+        margin: 40px auto;
+    }
+
+    .benefits-section h2 {
+        font-size: 28px;
+    }
+
+    .benefits-section p {
+        font-size: 15px;
+        line-height: 1.7;
+        text-align: center;
+    }
+
+    .achievement-heading {
+        font-size: 30px;
+    }
+
+    .achievement-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .achievement-card {
+        width: 95%;
+    }
+
+    .achievement-card h1 {
+        font-size: 42px;
+    }
+
+    .contact-section {
+        padding: 40px 10px;
+    }
+
+    .contact-heading {
+        font-size: 30px;
+    }
+
+    .contact-form {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .contact-form button {
+        font-size: 16px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-box {
+        min-width: 100%;
+    }
+
+    .footer-box h3 {
+        font-size: 22px;
+    }
+
+    .footer-box p,
+    .footer-box li a {
+        font-size: 15px;
+    }
+
+    .footer-bottom {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .navbar {
+        width: 95%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .logo h2 {
+        font-size: 30px;
+    }
+
+    .nav-links {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .nav-links li a {
+        font-size: 17px;
+        padding: 8px 12px;
+    }
+
+    .hero {
+        height: 75vh;
+    }
+
+    .hero-content h1 {
+        font-size: 70px;
+        letter-spacing: 8px;
+        text-align: center;
+    }
+
+    .about-section {
+        width: 90%;
+        padding: 35px;
+    }
+
+    .about-section h2 {
+        font-size: 38px;
+    }
+
+    .about-section p {
+        font-size: 17px;
+    }
+
+    .food-heading {
+        font-size: 55px;
+    }
+
+    .food-cards {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .food-card img {
+        height: 220px;
+    }
+
+    .benefits-section {
+        width: 90%;
+        padding: 35px;
+    }
+
+    .benefits-section h2 {
+        font-size: 38px;
+    }
+
+    .benefits-section p {
+        font-size: 17px;
+    }
+
+    .achievement-heading {
+        font-size: 42px;
+    }
+
+    .achievement-cards {
+        gap: 25px;
+    }
+
+    .achievement-card {
+        width: 320px;
+    }
+
+    .contact-heading {
+        font-size: 42px;
+    }
+
+    .contact-form {
+        width: 85%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 35px;
+    }
+
+    .footer-box {
+        min-width: 100%;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+
+    header {
+        padding: 15px 0;
+    }
+
+    .navbar {
+        width: 95%;
+    }
+
+    .logo h2 {
+        font-size: 28px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .nav-links li a {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .hero-content h1 {
+        font-size: 70px;
+        letter-spacing: 8px;
+        text-align: center;
+    }
+
+    .about-section {
+        width: 90%;
+        padding: 40px;
+        margin: 60px auto;
+    }
+
+    .about-section h2 {
+        font-size: 38px;
+    }
+
+    .about-section p {
+        font-size: 17px;
+    }
+
+    .food-heading {
+        font-size: 55px;
+    }
+
+    .food-cards {
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .food-card img {
+        height: 220px;
+    }
+
+    .benefits-section {
+        width: 90%;
+        padding: 35px;
+    }
+
+    .benefits-section h2 {
+        font-size: 35px;
+    }
+
+    .benefits-section p {
+        font-size: 17px;
+    }
+
+    .achievement-heading {
+        font-size: 42px;
+    }
+
+    .achievement-cards {
+        gap: 20px;
+    }
+
+    .achievement-card {
+        width: 280px;
+    }
+
+    .achievement-card h1 {
+        font-size: 48px;
+    }
+
+    .contact-section {
+        padding: 60px 20px;
+    }
+
+    .contact-heading {
+        font-size: 42px;
+    }
+
+    .contact-form {
+        width: 80%;
+        padding: 35px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 16px;
+    }
+
+    .contact-form button {
+        font-size: 17px;
+    }
+
+    .footer-content {
+        width: 95%;
+        gap: 25px;
+    }
+
+    .footer-box {
+        min-width: 220px;
+    }
+
+    .footer-box h3 {
+        font-size: 24px;
+    }
+
+    .footer-box p,
+    .footer-box li a {
+        font-size: 16px;
+    }
+
+    .footer-bottom {
+        font-size: 15px;
+    }
+
+}
